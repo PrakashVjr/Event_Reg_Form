@@ -1,0 +1,158 @@
+*
+{
+    padding: 0;
+    margin: 0; 
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+span{
+    color:red;
+}
+
+.header
+{
+    background-image: url(img/g3.jpg);
+    height: 130px;
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: 900;
+    font-style: italic;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-feature-settings: "fina";
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color:  rgb(90, 255, 98);
+}
+
+.logobanner
+{
+    margin-left: 2%;
+    height: 100px;
+    border-radius: 30%;
+    opacity: 50%;   
+}
+
+img
+{
+    object-fit: cover;  
+}
+
+h1
+{
+    font-size: 28px;
+    padding-left: 40%;
+}
+
+.navbar
+{
+    background-color: rgb(195, 195, 195);
+    min-height: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+li
+{
+    display: inline;
+    padding:5px;
+    height: auto;
+}
+
+.nav_btn
+{
+    padding:10px;
+    justify-content: center;
+    background-color: rgb(195, 195, 195);
+    border: 2px solid;
+    border: unset;
+    cursor: pointer;
+}
+
+
+.main
+{
+    width: vw;
+    height: vh;
+    background-image: Url(g2.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.content
+{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: oblique 20deg 50deg;
+    min-width: 180px;
+    background-image: Url(g2.jpg);
+    padding: 5% 15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.Quary
+{
+    display: flex;
+    border: 2px;
+    border-color: black;
+}
+
+.Quary1
+{
+    width: 105%;
+    border: 2px solid black;
+}
+
+.value
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 0%;
+    border-color: none;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+
+.button
+{
+    padding: 15px 32px;
+    display: block;
+    display: flex;
+    margin: 5px 5px;
+    margin-bottom:0%;
+}
+
+.submit
+{
+    cursor: pointer; 
+    opacity: 80%;      
+}
+
+.submit:hover
+{
+    scale: 110%;
+    opacity: 150%;
+    border-radius: 20%;
+}
+
+.reset
+{
+    margin-left: 25px;
+    cursor: pointer;
+    opacity: 80%; 
+}
+
+.reset:hover
+{
+    scale: 110%;
+    opacity: 150%;
+    border-radius: 20%;
+}
